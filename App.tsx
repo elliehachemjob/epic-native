@@ -10,13 +10,12 @@
 
 import React from 'react';
 import { SafeAreaView, StyleSheet, Text, View } from 'react-native';
+import About from './pages/About';
+import Home from './pages/Home';
+import Contact from './pages/Contact';
 
 const App = () => {
-  return (
-    <View>
-      <Text>hi</Text>
-    </View>
-  );
+  return <Contact />;
 };
 
 const styles = StyleSheet.create({});
